@@ -37,13 +37,14 @@
     UIImage *bgimg = [UIImage imageNamed:[[NSBundle mainBundle] pathForResource:@"2" ofType:@"jpg"]];
     UIImageView *image = [[UIImageView alloc] initWithFrame:_blurView.blurProviderView.frame];
     [image setImage:bgimg];
+     _blurView.blurEnable = YES;
 //    _blurView.autoTransiton = YES;
     [_blurView setTransitionView:image];
     
-    _blurView.blurEnable = YES;
-    [_blurView blurAsync:NO completion:^{
-        NSLog(@"completion");
-    }];
+   
+//    [_blurView blurAsync:NO completion:^{
+//        NSLog(@"completion");
+//    }];
 }
 
 - (void)didReceiveMemoryWarning {
