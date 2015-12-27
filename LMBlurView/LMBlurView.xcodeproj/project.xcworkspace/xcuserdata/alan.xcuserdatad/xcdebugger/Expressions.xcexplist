@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[LMBlurView updateLayerContent:]:LMBlurView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.layer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LMBlurView setTransitionView:]:LMBlurView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.transitionLayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LMBlurView prepareUnderlyingViewForSnapshot]:LMBlurView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "blurlayer.superlayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LMBlurView updateAsynchronously:completion:]:LMBlurView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.blurRadius">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LMBlurView blurTransition:]:LMBlurView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.transitionLayer.opacity">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

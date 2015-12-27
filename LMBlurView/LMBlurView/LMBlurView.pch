@@ -1,0 +1,24 @@
+//
+//  LMBlurView.pch
+//  LMBlurView
+//
+//  Created by by on 15/12/27.
+//  Copyright © 2015年 dlm. All rights reserved.
+//
+
+#ifndef LMBlurView_pch
+#define LMBlurView_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#endif
+
+#if !__has_feature(objc_arc)
+#error This file must be compiled with ARC.
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LMBlurView_pch */
