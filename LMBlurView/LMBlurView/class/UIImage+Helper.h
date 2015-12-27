@@ -25,4 +25,7 @@
 
 + (UIImage *)screenshot;
 + (UIImage *)imageWithColor:(UIColor *)color;
+
+/** 图片颜色替换 颜色转换为透明 */
+- (UIImage*)imageToTransparent:(UIImage*) image;
 @end
